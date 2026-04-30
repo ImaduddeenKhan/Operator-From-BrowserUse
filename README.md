@@ -91,7 +91,7 @@ Run the Web UI:
 python webui.py --ip 127.0.0.1 --port 7788
 ```
 
-Open **http://127.0.0.1:7788** in your browser.
+Open **http://127.0.0.1:7788** in your browser. For additional flags (theme, dark mode, persistence), run `python webui.py --help`.
 
 ### Option 2: Docker Installation
 
@@ -140,7 +140,7 @@ Contributions are welcome!
 
 1. Fork the repo and create your feature branch.
 2. Keep changes focused and well-tested.
-3. Run tests where applicable: `pytest`.
+3. Run tests where applicable: `pytest` (requires valid API keys in `.env` and Playwright browsers installed).
 4. Open a PR with a clear description of the change.
 
 ## 📜 License
