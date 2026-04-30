@@ -67,8 +67,8 @@ Operator From BrowserUse is a modern Web UI for running **browser-use** agents w
 
 ```bash
 # Clone the repository
-git clone https://github.com/ImaduddeenKhan/Operator-From-BrowserUse.git
-# If you're working from a fork or org mirror, replace the URL above.
+git clone https://github.com/your-org/Operator-From-BrowserUse.git
+# Replace with the canonical repository URL for your organization.
 cd Operator-From-BrowserUse
 
 # Create a virtual environment (recommended)
@@ -98,8 +98,8 @@ Open **http://127.0.0.1:7788** in your browser. Common flags: `--theme` (UI styl
 
 ```bash
 # Clone the repository
-git clone https://github.com/ImaduddeenKhan/Operator-From-BrowserUse.git
-# If you're working from a fork or org mirror, replace the URL above.
+git clone https://github.com/your-org/Operator-From-BrowserUse.git
+# Replace with the canonical repository URL for your organization.
 cd Operator-From-BrowserUse
 
 # Create environment file
@@ -123,7 +123,7 @@ Access:
 │   ├── browser/           # Browser and context extensions
 │   ├── controller/        # UI and orchestration controller
 │   └── utils/             # Helpers, configs, and LLM utilities
-├── tests/                 # Test suite (requires API keys)
+├── tests/                 # Test suite (requires API keys from .env.example)
 ├── webui.py               # Gradio entrypoint
 ├── docker-compose.yml     # Container setup
 └── requirements.txt       # Python dependencies
@@ -142,7 +142,7 @@ Contributions are welcome!
 
 1. Fork the repo and create your feature branch.
 2. Keep changes focused and well-tested.
-3. Run tests where applicable: `pytest` (requires valid API keys in `.env` and Playwright browsers installed).
+3. Run the test suite to verify your change: `pytest` (requires API keys from `.env.example` and Playwright browsers installed).
 4. Open a PR with a clear description of the change.
 
 ## 📜 License
