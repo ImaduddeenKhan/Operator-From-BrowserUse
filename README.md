@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/web-ui.png" alt="Operator From BrowserUse Web UI" width="100%" />
+  <img src="./assets/web-ui.png" alt="Operator From BrowserUse UI" width="100%" />
 </p>
 
 <h1 align="center">Operator From BrowserUse</h1>
@@ -68,6 +68,7 @@ Operator From BrowserUse is a modern Web UI for running **browser-use** agents w
 ```bash
 # Clone the repository
 git clone https://github.com/ImaduddeenKhan/Operator-From-BrowserUse.git
+# If you're working from a fork or org mirror, replace the URL above.
 cd Operator-From-BrowserUse
 
 # Create a virtual environment (recommended)
@@ -91,13 +92,14 @@ Run the Web UI:
 python webui.py --ip 127.0.0.1 --port 7788
 ```
 
-Open **http://127.0.0.1:7788** in your browser. For additional flags (theme, dark mode, persistence), run `python webui.py --help`.
+Open **http://127.0.0.1:7788** in your browser. Common flags: `--theme` (UI styling), `--dark-mode` (dark UI), `--ip`/`--port` (bind address). For the full list, run `python webui.py --help`.
 
 ### Option 2: Docker Installation
 
 ```bash
 # Clone the repository
 git clone https://github.com/ImaduddeenKhan/Operator-From-BrowserUse.git
+# If you're working from a fork or org mirror, replace the URL above.
 cd Operator-From-BrowserUse
 
 # Create environment file
